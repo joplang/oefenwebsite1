@@ -1,0 +1,136 @@
+body {
+    color: #f2f4c3;
+    background-color:black;
+
+}
+
+.page-header {
+    display: flex;
+    background-color: #480032;
+    justify-content:space-around;
+    text-align: center;
+    border-style:ridge;
+    box-shadow: 10px 10px 20px #f2f4c3;
+    padding: 20px;
+    border-radius: 0% 0% 15% 15%;
+
+}
+h1 {
+    -webkit-text-stroke: 0.05em black;
+    font-size: 300%;
+}
+section {
+    justify-content:space-around;
+    text-align: center;
+    display: block;
+    border-radius: 5%;
+    padding: 10px;
+    border-style:ridge;
+    margin: 40px;
+    box-shadow: 10px 10px 20px #f2f4c3;
+}
+
+img {
+    height: 70%;
+    width: 70%;
+    display: inline-block;
+    padding: 5%;
+    border-radius: 15%;
+}
+#geschiedenis {
+    background-color: #005792;
+    display: flex;
+}
+#voordelen {
+    background-color:#480032;
+    display: flex;
+}
+#locatie {
+    background-color: #005792;
+    display: flex;
+}
+footer {
+    background-color:#480032;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    border-style: ridge;
+}
+a {
+    color: black;
+}
+
+.accordion {
+    text-align:center;
+    padding: 0% 5% 1%;
+}
+.accordion-item {
+    background-color: #480032;
+    box-shadow: 0 0 3px 0.15rem #f2f4c3;
+
+
+}
+.accordion-button {
+    background-color: #480032;
+    color: #f2f4c3;
+    border-radius: 15%;
+
+}
+.accordion-button:not(.collapsed) {
+    background-color: #480032;
+    color: #f2f4c3;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 3px 0.15rem #f2f4c3;
+}
+
+.carousel {
+    border-style:ridge;
+    border-radius: 15%;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 75vh;
+  }
+.card {
+    float: right;
+    position: fixed;
+    background-color: rgb(72, 0, 50, 0.4);
+    justify-content:space-around;
+    text-align: center;
+    border-style:ridge;
+    box-shadow: 0 0 3px 0.15rem #f2f4c3;
+    border-radius: 15%;
+    top: 1em;
+    right: 1em;
+    z-index: 1;
+}
+.dropdown-menu {
+    background-color: #480032;
+    color: #f2f4c3;
+    text-align: center;
+    opacity: 0.7;
+}
+.dropdown-toggle {
+    background-color: #480032;
+    color: #f2f4c3;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.dropdown-toggle:hover {
+    background-color:#005792;
+    color: #f2f4c3;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.btn-check:active+.btn-outline-secondary, .btn-check:checked+.btn-outline-secondary, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show, .btn-outline-secondary:active {
+    background-color: #480032;
+    color: #f2f4c3;
+    text-align: center;
+    opacity: 0.8;
+
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefenwebsite</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="oefenwebsite.css">
+</head>
+
+<body>
+    <header class="page-header container-fluid">
+        <div class="container-fluid">
+            <h1>Dit is een website over Power Metal</h1>
+        </div>
+    </header>
+    <div class="card d-flex ">
+        <div class="card-body">
+            <h5 class="card-title">Muziek is goed voor de ziel</h5>
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Speel een deuntje!
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">
+                            <figure>
+                                <figcaption>Gloryhammer:</figcaption>
+                                <audio controls src=" sounds/05. The Hollywood Hootsman .mp3"></audio>
+                            </figure>
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            <figure>
+                                <figcaption>Powerwolf:</figcaption>
+                                <audio controls src="sounds/POWERWOLF - Beast Of Gévaudan.mp3"></audio>
+                            </figure>
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            <figure>
+                                <figcaption>Blind Guardian:</figcaption>
+                                <audio controls src="sounds/Blind Guardian- Mirror Mirror.mp3"></audio>
+                            </figure>
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            <figure>
+                                <figcaption>Freedom Call:</figcaption>
+                                <audio controls src="sounds/FREEDOM CALL - 'Metal is for Everyone'.mp3"></audio>
+                            </figure>
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            <figure>
+                                <figcaption>Unleash the Archers:</figcaption>
+                                <audio controls src="sounds/Unleash the Archers.mp3"></audio>
+                            </figure>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="geschiedenis" class="container-fluid">
+        <div class="row align-items-center content px-0">
+            <div class="col-6">
+                <h2>De geschiedenis van Power Metal</h2>
+                <p>Power Metal is a subgenre of Metal music that developed primarily in Europe in the early 1980s. Power
+                    Metal combines elements of both Heavy Metal and Speed Metal, characterized by fast tempos and an
+                    emphasis on melody and harmony. The majority of Power Metal bands use soaring clean vocals rather
+                    than the guttural or high pitched vocals primarily used in Death Metal and Black Metal.
+                    Additionally, Power Metal often incorporates symphonic or classical instrumentation, a similarity
+                    that may lead some bands to be considered Symphonic Metal. The lyrics of the genre are often focused
+                    on high fantasy or mythological imagery, with specific textual examples such as The Lord of the
+                    Rings or The Chronicles of Narnia. Prominent bands of the Power Metal genre include but are
+                    certainly not limited to Helloween, Blind Guardian, Iced Earth, and Stratovarius. </p>
+            </div>
+            <div class="col-6">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide d-flex d-none d-lg-block"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="imgs/helloween-keepers-part-ii-large.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="imgs/Guardian.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/Rhapsody.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/550x550.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/alestorm.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="container-fluid" id="voordelen">
+        <div class="row align-items-center content px-0">
+            <div class="col-8">
+                <h2>Stijlen Power Metal</h2>
+                <p>Aside from the standard USPM and European power metal styles, there are a number of different
+                    sub-genres, or hybrid genres in some cases, of power metal that have since developed.</p>
+
+                <p><b>Symphonic Power Metal:</b> A style of power metal typically only applicable to the European
+                    sound,
+                    symphonic power metal increases the use of keyboards to create a symphonic backing, drawing on
+                    classical music. The use of symphonic elements in such bands can vary greatly with some artists
+                    using them as a main element of their sound, such as Rhapsody of Fire, while some merely use
+                    symphonic elements to flavour their music, such as Avantasia. Symphonic power metal releases are
+                    always placed under power metal on MMA.</p>
+
+                <p><b>Heavy Power Metal:</b> Not to be confused with USPM, which is closer to traditional heavy metal
+                    to begin
+                    with, this refers to a hybrid of European power metal with traditional heavy metal. Bands are
+                    typically less speed orientated than pure melodic power metal acts. HammerFall is a heavy power
+                    metal act from Sweden while Nightmare are from France. Some artists which fall into this category
+                    featured a harder hitting, more aggressive sound, such as Grave Digger of Germany, but are still
+                    considered to belong to the European power metal genre rather than USPM. They are included under
+                    power metal on MMA, although some such artists have also made albums more directly rooted in
+                    traditional heavy metal and have those tagged accordingly. Some of the older heavy power metal acts,
+                    including Grave Digger and Nightmare, started as heavy metal acts before adding power metal into
+                    their sounds later in their careers.</p>
+
+                <p><b>olk Power Metal:</b> The folk metal as a genre can take its metal elements from almost any other
+                    metal
+                    genre going, including power metal. Elvenking and Falconer are folk power metal bands. They are
+                    typically included under folk metal on MMA, but with cases such as Falconer where folk influences
+                    are normally minimal per album, they are included under power metal instead. Additionally some power
+                    metal artists, especially Blind Guardian but also Grave Digger, have utilised folk influences in
+                    their music.</p>
+
+                <p><b>Power-Thrash:</b> A hybrid of power metal and thrash metal, which can be considered sister genres
+                    due to
+                    both evolving from speed metal. The so called blue collar USPM can also be considered to be
+                    power-thrash but the term typically refers to European power metal mixed with thrash metal, although
+                    the early work of Iced Earth is considered to be power-thrash. The mix of elements can vary even
+                    within the same artist with some being primarily power metal and others primarily thrash metal. As
+                    well as Iced Earth, Dark Empire and Paradox have also released power-thrash albums, while some power
+                    metal bands have included thrash metal elements in their sound in smaller amounts, such as Seven
+                    Kingdoms and Persuader. Power-thrash artists are treated on a case by case basis on MMA, for example
+                    Tales of the Weird (2012) by Paradox is placed under thrash metal, but The Fateful dark (2014) by
+                    Savage Messiah is placed under power metal.</p>
+
+                <p><b> Progressive Power Metal:</b> Drawing influences from progressive rock and metal music as well as
+                    power
+                    metal of either the European or US variety, these acts are typically included under power metal on
+                    MMA, such as Pyramaze and Kamelot. The exception is when an artist’s progressive influences become
+                    the most recognisable thing about their sound. Illusion Suite is an example of such a progressive
+                    power metal act. Vandroya and Wuthering Heights are progressive power metal bands, the latter of
+                    which also being classifiable under folk power metal.</p>
+
+                <p><b>Neo-classical Power Metal:</b> Melodic power metal that uses neo-classical guitar playing for its
+                    lead
+                    guitar parts. Magic Kingdom and Concerto Moon are neo-classical power metal acts, while other power
+                    metal acts such as Amberian Dawn and At Vance have incorporated aspects of neo-classical metal into
+                    their sounds. As there is no neo-classical metal sub on MMA all such acts are placed under power
+                    metal by default, while non-power metal based neo-classical acts are typically placed under
+                    traditional heavy metal, or sometimes progressive metal, with which there can also be crossover, as
+                    with Symphony X.</p>
+
+                <p><b>Extreme Power Metal:</b> This particular sub-genre combines power metal with melodic death metal
+                    and
+                    covers artists such as Children of Bodom, the first album of Wintersun and to a lesser extent the
+                    first album from Seven Kingdoms. Extreme power metal typically features power metal music but with
+                    primarily growling vocals rather than power metal’s traditional clean singing. Such artists are
+                    treated with a case by case basis as to their placement on MMA. The genre is sometimes also called
+                    Power-Death.</p>
+
+            </div>
+            <div class="col-4 d-none d-lg-block">
+                <img id="plaatje" src="imgs/powerwolf.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid" id="locatie">
+        <div class="row align-items-center px-0">
+            <div class="col-8">
+                <h2>Waar vind je Power Metal?</h2>
+                <p>Raise sails, head to the open sea
+                    Under captain Schettino's command
+                    Heeding the proud and stuttering call
+                    Of Pippi Longstocking and Saddam Hussein
+                </p>
+                <p>From Cape Town, through lake Baikal
+                    Across Castel di Sangro
+                    To the enchanted valleys of European Alps
+                    Where reptilians play Subbuteo with Bush
+                </p>
+                <p>Cows, fire, demons – you cannot stop our march
+                    Piggybacking Eddie Murphy into Liechtenstein
+                </p>
+                <p> <b>Hail to Liechtenstein! Hail to Liechtenstein!
+                        Hail to Liechtenstein!</b>
+                </p>
+                <p>We bought a swiss motorway vignette
+                    To drive through the A13
+                    Avoiding the checks of the border patrol
+                    To be free from customs control
+
+                </p>
+                <p>Dribbling the sight of old passersby
+                    Riding to downtown Schaan,
+                    While the busty Liechtensteinerinnen
+                    Still inspire us with onanist dreams
+                </p>
+                <p>Our journey's over, and the hardships now are gone
+                    Flying free on Hawking wheelchairs to Liechtenstein
+                </p>
+                <p> <b> Hail to Liechtenstein! Hail to Liechtenstein!
+                        Hail to Liechtenstein! </b>
+                </p>
+                <p>The highest GDP per person in the world
+                    Adjusting by purchase power parity
+                    An unemployment rate so ridiculously low
+                    It's just 1.5%
+                    Levying a flat income tax
+                    And a loose corporate fiscal regime
+                    Under the sign of the Financial Intelligence Unit
+                    Fighting laundering and capital flight
+                    Fürstentum Liechtenstein
+                </p>
+                <p>Fürstentum Liechtenstein
+                    A business-friendly country you are
+
+                    Prince Hans Adam! For the permit we'll apply
+                    To gain timeless residence in Liechtenstein!
+                </p>
+                <p><b>Hail to Liechtenstein! Hail to Liechtenstein!
+                        Hail to Liechtenstein!
+                    </b></p>
+            </div>
+            <div class="col-4 d-none d-lg-block">
+                <img id="plaatje" src="imgs/gloryhammer.jpg" alt="">
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Wacken
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">In het verre Duitsland wonen
+                            Duitsers. Daar kunnen ze zelf ook niks aan doen, maar het is de waarheid. Daarentegen weten
+                            ze daar af en toe nog best een lekker muziekje voort te brengen. Dergelijke deuntjes vind je
+                            allemaal bij <a href="https://www.wacken.com/">Wacken Open Air!</a> </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Graspop
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">In het verre Belgi&#235 wonen
+                            Belgen. Daar kunnen ze zelf ook niks aan doen, maar het is de waarheid. Daarentegen weten
+                            ze daar af en toe nog best een lekker muziekje voort te brengen. Dergelijke deuntjes vind je
+                            allemaal bij <a href="https://www.graspop.be/nl/">Graspop Metal Meet!</a></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Narnia
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">In het verre Narnia wonen pratende diertjes. Dit is mildjes
+                            problematisch in context van Power Metal, aangezien deze diertjes over het algemeen geen
+                            duimen hebben. Dit maakt het erg lastig om instrumenten te bespelen. Dientengevolge zijn er
+                            bijzonder weinig metalbands in Narnia. Er is daarentegen wel een Power Metalband die Narnia
+                            <i>heet</i>. Deze komt echter uit Zweden, en niet uit een kast.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row align-items-center px-0">
+                <h2>Deze website is mogelijk gemaakt door <a href="https://nl.wikipedia.org/wiki/Messias">Hansi
+                        K&#252rsch</a>
+                </h2>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="oefenwebsite.js"></script>
+</body>
+
+</html>
